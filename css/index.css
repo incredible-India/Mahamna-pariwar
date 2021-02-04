@@ -38,7 +38,7 @@
 
 
 .textmahamna{
-    margin-top: 10px;
+    margin-top: 47px;
 }
 
 .badge{
@@ -55,11 +55,12 @@
     }
     .textmahamna{
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-color: darkred;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: darkred;
+        margin-top: 10px;
 
     }
 
@@ -72,4 +73,11 @@ color: darkred;
     }
     
 
+}
+
+/* for the nav bar  */
+.mahamnanav{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
