@@ -1,0 +1,18 @@
+.spinners
+{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 999;
+    background-image: linear-gradient(to right,#921,rgb(196, 166, 68));
+  
+}
+
+.wait{
+    text-align: center;
+}
