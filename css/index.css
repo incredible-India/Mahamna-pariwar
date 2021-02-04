@@ -79,5 +79,35 @@
 .mahamnanav{
     position: sticky;
     top: 0px;
-    z-index: 1;
+    z-index: 3;
+}
+
+/* for the preparation  */
+
+.prepare{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+   /* align-items: ; */
+}
+
+.sub{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* width: fit-content; */
+    border-radius: 10px;
+}
+
+.txt{
+    border-radius: 10px;
+    width: 300px;
+    margin: 8px;
+    padding: 8px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    /* justify-content: space-between; */
 }
