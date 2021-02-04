@@ -16,3 +16,60 @@
 .wait{
     text-align: center;
 }
+
+/* for the logo  */
+
+
+.banner{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+
+    width: 200px;
+    height: 250px;
+    background-image: url(./../images/logo.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+
+.textmahamna{
+    margin-top: 10px;
+}
+
+.badge{
+    background-image: linear-gradient(to right ,#925,rgb(240, 243, 73));
+}
+
+@media (max-width : 600px){
+
+    .banner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .textmahamna{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: darkred;
+
+    }
+
+    .badge{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+
+}
