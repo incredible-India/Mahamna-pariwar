@@ -6,3 +6,4 @@ function stopLOading(){
     spinner.style.display ="none"
 
 }
+

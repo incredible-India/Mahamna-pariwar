@@ -88,10 +88,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    /* border: 1px dotted; */
-    /* box-shadow: 0 0 2px , 0 0 5px; */
-    /* justify-content: space-between; */
-   /* align-items: ; */
+ 
 }
 
 .sub{
@@ -117,5 +114,30 @@
 }
 
 .txt:hover{
-    transform: scale(1.2);
+    transform: scale(0.8);
+}
+
+.fac{
+    margin-top: 8px;
+}
+
+.facmem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    outline: none;
+}
+.imgfac{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.fac{
+    margin-top: 10px;
+}
+
+.card-body{
+    margin-left: 10px;
 }
