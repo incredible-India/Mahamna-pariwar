@@ -37,6 +37,7 @@ body{
     background-image: url(./../images/logo.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
+    border-bottom: 6px;
    
 }
 
@@ -49,13 +50,18 @@ body{
     background-image: linear-gradient(to right ,#925,rgb(240, 243, 73));
 }
 
+.banner{
+    background-image: linear-gradient(to left ,#925,rgb(240, 243, 73));
+}
+
 @media (max-width : 600px){
 
     .banner{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
+           
     }
     .textmahamna{
 
@@ -141,6 +147,7 @@ body{
     border: none;
     outline: none;
     width: fit-content;
+    /* margin-left: 30px; */
 }
 .imgfac{
     width: 200px;
