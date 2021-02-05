@@ -13,6 +13,10 @@
   
 }
 
+
+body{
+    overflow-x: hidden;
+}
 .wait{
     text-align: center;
 }
@@ -80,6 +84,7 @@
     position: sticky;
     top: 0px;
     z-index: 3;
+    width: 100%;
 }
 
 /* for the preparation  */
@@ -117,6 +122,13 @@
     transform: scale(0.8);
 }
 
+.aopen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .fac{
     margin-top: 8px;
 }
@@ -128,6 +140,7 @@
     flex-direction: column;
     border: none;
     outline: none;
+    width: fit-content;
 }
 .imgfac{
     width: 200px;
