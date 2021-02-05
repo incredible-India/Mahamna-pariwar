@@ -161,3 +161,17 @@ body{
 .card-body{
     margin-left: 10px;
 }
+
+
+.quaryform{
+
+    box-shadow: 0 0 5px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+input {
+    width: 100%;
+}
